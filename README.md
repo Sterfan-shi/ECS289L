@@ -25,3 +25,14 @@ Yifeng Shi:
 3. Fetching Future potential yield data corresponding to RCP4.5 and RCP8.5  
 4. run models to predict crop yield for every geo-cell, each crop, every 30 years, using RCP8.5 Weather.
 
+## File Description
+1. Fetching Weather Data.R:
+      is used to fetch weather data that model needs to product the crop yield.
+2. weather data-from GAEZ.xlsx 
+     constains weather and potential yield data we collected from GAEZ by fetching and analyzing .tif files for each geo-cell corresponding to RCP's, Crops, etc.
+3. Weather_data_1981_2010 
+    .met files in this folder are collected as the base for predicting future weather.
+4. Manipulate weather data for every fu.... 
+     files for producing further weather data.
+5. Integrate the model prediction result...
+     combine each year's predicted yield together to form mean yield for every 30 years for each geo-cell.
